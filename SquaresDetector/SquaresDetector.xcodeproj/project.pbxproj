@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		141582421A689E3A0088C7A7 /* Squares.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 141582401A689E3A0088C7A7 /* Squares.cpp */; };
+		141582441A68AD360088C7A7 /* UIImage+OpenCV.mm in Sources */ = {isa = PBXBuildFile; fileRef = 141582431A68AD360088C7A7 /* UIImage+OpenCV.mm */; };
+		141582481A68C23A0088C7A7 /* squares.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 141582471A68C23A0088C7A7 /* squares.jpg */; };
+		1417D0D01A6889E400E431B3 /* CVWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1417D0CF1A6889E400E431B3 /* CVWrapper.mm */; };
+		1417D0D31A688A6400E431B3 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1417D0D21A688A6400E431B3 /* opencv2.framework */; };
+		141843721A67405700BA36D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141843711A67405700BA36D0 /* AppDelegate.swift */; };
+		141843741A67405700BA36D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141843731A67405700BA36D0 /* ViewController.swift */; };
+		141843771A67405700BA36D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 141843751A67405700BA36D0 /* Main.storyboard */; };
+		141843791A67405700BA36D0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 141843781A67405700BA36D0 /* Images.xcassets */; };
+		1418437C1A67405700BA36D0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1418437A1A67405700BA36D0 /* LaunchScreen.xib */; };
+		141843881A67405700BA36D0 /* SquaresDetectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141843871A67405700BA36D0 /* SquaresDetectorTests.swift */; };
+		141E996D1A71D93300D47208 /* SquaresDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141E996C1A71D93300D47208 /* SquaresDetector.swift */; };
+		142151311A6C6A2E003AFB6D /* TwoS.png in Resources */ = {isa = PBXBuildFile; fileRef = 142151301A6C6A2E003AFB6D /* TwoS.png */; };
+		142151341A6C6FCE003AFB6D /* ColorDetector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 142151321A6C6FCE003AFB6D /* ColorDetector.cpp */; };
+		F3E791811A72C570001A99D7 /* cannyImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F3E791801A72C570001A99D7 /* cannyImage.jpg */; };
+		F3E79CBA1A85423400AC3600 /* Utility.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F3E79CB81A85423400AC3600 /* Utility.cpp */; };
+		F3EB62C91A6D9A340019E96E /* ColorDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EB62C81A6D9A340019E96E /* ColorDetector.swift */; };
+		F3EDFAB91A6EEE7200EA35DE /* SquaresPerspectiveCorrection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F3EDFAB71A6EEE7200EA35DE /* SquaresPerspectiveCorrection.cpp */; };
+		F3EDFABB1A6EF5E700EA35DE /* card.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F3EDFABA1A6EF5E700EA35DE /* card.jpg */; };
+		F3F16FFB1A702B7800FC8FE1 /* img1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F3F16FF91A702B7800FC8FE1 /* img1.jpg */; };
+		F3F16FFC1A702B7800FC8FE1 /* img2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F3F16FFA1A702B7800FC8FE1 /* img2.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		141843821A67405700BA36D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 141843641A67405600BA36D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1418436B1A67405600BA36D0;
+			remoteInfo = SquaresDetector;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		141582401A689E3A0088C7A7 /* Squares.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Squares.cpp; sourceTree = "<group>"; };
+		141582411A689E3A0088C7A7 /* Squares.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Squares.h; sourceTree = "<group>"; };
+		141582431A68AD360088C7A7 /* UIImage+OpenCV.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "UIImage+OpenCV.mm"; sourceTree = "<group>"; };
+		141582451A68AD4E0088C7A7 /* UIImage+OpenCV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+OpenCV.h"; sourceTree = "<group>"; };
+		141582471A68C23A0088C7A7 /* squares.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = squares.jpg; sourceTree = "<group>"; };
+		1417D0CE1A6889E400E431B3 /* CVWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVWrapper.h; sourceTree = "<group>"; };
+		1417D0CF1A6889E400E431B3 /* CVWrapper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CVWrapper.mm; sourceTree = "<group>"; };
+		1417D0D21A688A6400E431B3 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
+		1418436C1A67405600BA36D0 /* SquaresDetector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SquaresDetector.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		141843701A67405700BA36D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		141843711A67405700BA36D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		141843731A67405700BA36D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		141843761A67405700BA36D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		141843781A67405700BA36D0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1418437B1A67405700BA36D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		141843811A67405700BA36D0 /* SquaresDetectorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SquaresDetectorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		141843861A67405700BA36D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		141843871A67405700BA36D0 /* SquaresDetectorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquaresDetectorTests.swift; sourceTree = "<group>"; };
+		141843931A67532600BA36D0 /* SuquaresDetector-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "SuquaresDetector-Bridging-Header.h"; path = "SquaresDetector/SuquaresDetector-Bridging-Header.h"; sourceTree = "<group>"; };
+		141E996C1A71D93300D47208 /* SquaresDetector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SquaresDetector.swift; path = SwiftClasses/SquaresDetector.swift; sourceTree = SOURCE_ROOT; };
+		142151301A6C6A2E003AFB6D /* TwoS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TwoS.png; sourceTree = "<group>"; };
+		142151321A6C6FCE003AFB6D /* ColorDetector.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ColorDetector.cpp; sourceTree = "<group>"; };
+		142151331A6C6FCE003AFB6D /* ColorDetector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorDetector.h; sourceTree = "<group>"; };
+		F3E791801A72C570001A99D7 /* cannyImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cannyImage.jpg; sourceTree = "<group>"; };
+		F3E79CB81A85423400AC3600 /* Utility.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Utility.cpp; sourceTree = "<group>"; };
+		F3E79CB91A85423400AC3600 /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
+		F3EB62C81A6D9A340019E96E /* ColorDetector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ColorDetector.swift; path = SwiftClasses/ColorDetector.swift; sourceTree = SOURCE_ROOT; };
+		F3EDFAB71A6EEE7200EA35DE /* SquaresPerspectiveCorrection.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SquaresPerspectiveCorrection.cpp; sourceTree = "<group>"; };
+		F3EDFAB81A6EEE7200EA35DE /* SquaresPerspectiveCorrection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SquaresPerspectiveCorrection.h; sourceTree = "<group>"; };
+		F3EDFABA1A6EF5E700EA35DE /* card.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = card.jpg; sourceTree = "<group>"; };
+		F3F16FF91A702B7800FC8FE1 /* img1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img1.jpg; sourceTree = "<group>"; };
+		F3F16FFA1A702B7800FC8FE1 /* img2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img2.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		141843691A67405600BA36D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1417D0D31A688A6400E431B3 /* opencv2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1418437E1A67405700BA36D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		141582461A68C23A0088C7A7 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				F3E791801A72C570001A99D7 /* cannyImage.jpg */,
+				F3F16FF91A702B7800FC8FE1 /* img1.jpg */,
+				F3F16FFA1A702B7800FC8FE1 /* img2.jpg */,
+				F3EDFABA1A6EF5E700EA35DE /* card.jpg */,
+				142151301A6C6A2E003AFB6D /* TwoS.png */,
+				141582471A68C23A0088C7A7 /* squares.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		1417D0CC1A6889E400E431B3 /* C++ */ = {
+			isa = PBXGroup;
+			children = (
+				141582401A689E3A0088C7A7 /* Squares.cpp */,
+				141582411A689E3A0088C7A7 /* Squares.h */,
+				142151321A6C6FCE003AFB6D /* ColorDetector.cpp */,
+				142151331A6C6FCE003AFB6D /* ColorDetector.h */,
+				F3EDFAB71A6EEE7200EA35DE /* SquaresPerspectiveCorrection.cpp */,
+				F3EDFAB81A6EEE7200EA35DE /* SquaresPerspectiveCorrection.h */,
+				F3E79CB81A85423400AC3600 /* Utility.cpp */,
+				F3E79CB91A85423400AC3600 /* Utility.h */,
+			);
+			path = "C++";
+			sourceTree = "<group>";
+		};
+		1417D0CD1A6889E400E431B3 /* Obj-C */ = {
+			isa = PBXGroup;
+			children = (
+				1417D0CE1A6889E400E431B3 /* CVWrapper.h */,
+				1417D0CF1A6889E400E431B3 /* CVWrapper.mm */,
+				141582451A68AD4E0088C7A7 /* UIImage+OpenCV.h */,
+				141582431A68AD360088C7A7 /* UIImage+OpenCV.mm */,
+			);
+			path = "Obj-C";
+			sourceTree = "<group>";
+		};
+		141843631A67405600BA36D0 = {
+			isa = PBXGroup;
+			children = (
+				141582461A68C23A0088C7A7 /* Images */,
+				1417D0D21A688A6400E431B3 /* opencv2.framework */,
+				1417D0CC1A6889E400E431B3 /* C++ */,
+				1417D0CD1A6889E400E431B3 /* Obj-C */,
+				141843931A67532600BA36D0 /* SuquaresDetector-Bridging-Header.h */,
+				F3EB62C71A6D99F80019E96E /* SwiftClasses */,
+				1418436E1A67405600BA36D0 /* SquaresDetector */,
+				141843841A67405700BA36D0 /* SquaresDetectorTests */,
+				1418436D1A67405600BA36D0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1418436D1A67405600BA36D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1418436C1A67405600BA36D0 /* SquaresDetector.app */,
+				141843811A67405700BA36D0 /* SquaresDetectorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1418436E1A67405600BA36D0 /* SquaresDetector */ = {
+			isa = PBXGroup;
+			children = (
+				141843711A67405700BA36D0 /* AppDelegate.swift */,
+				141843731A67405700BA36D0 /* ViewController.swift */,
+				141843751A67405700BA36D0 /* Main.storyboard */,
+				141843781A67405700BA36D0 /* Images.xcassets */,
+				1418437A1A67405700BA36D0 /* LaunchScreen.xib */,
+				1418436F1A67405600BA36D0 /* Supporting Files */,
+			);
+			path = SquaresDetector;
+			sourceTree = "<group>";
+		};
+		1418436F1A67405600BA36D0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				141843701A67405700BA36D0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		141843841A67405700BA36D0 /* SquaresDetectorTests */ = {
+			isa = PBXGroup;
+			children = (
+				141843871A67405700BA36D0 /* SquaresDetectorTests.swift */,
+				141843851A67405700BA36D0 /* Supporting Files */,
+			);
+			path = SquaresDetectorTests;
+			sourceTree = "<group>";
+		};
+		141843851A67405700BA36D0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				141843861A67405700BA36D0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F3EB62C71A6D99F80019E96E /* SwiftClasses */ = {
+			isa = PBXGroup;
+			children = (
+				F3EB62C81A6D9A340019E96E /* ColorDetector.swift */,
+				141E996C1A71D93300D47208 /* SquaresDetector.swift */,
+			);
+			name = SwiftClasses;
+			path = SquaresDetector;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1418436B1A67405600BA36D0 /* SquaresDetector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1418438B1A67405700BA36D0 /* Build configuration list for PBXNativeTarget "SquaresDetector" */;
+			buildPhases = (
+				141843681A67405600BA36D0 /* Sources */,
+				141843691A67405600BA36D0 /* Frameworks */,
+				1418436A1A67405600BA36D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SquaresDetector;
+			productName = SquaresDetector;
+			productReference = 1418436C1A67405600BA36D0 /* SquaresDetector.app */;
+			productType = "com.apple.product-type.application";
+		};
+		141843801A67405700BA36D0 /* SquaresDetectorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1418438E1A67405700BA36D0 /* Build configuration list for PBXNativeTarget "SquaresDetectorTests" */;
+			buildPhases = (
+				1418437D1A67405700BA36D0 /* Sources */,
+				1418437E1A67405700BA36D0 /* Frameworks */,
+				1418437F1A67405700BA36D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				141843831A67405700BA36D0 /* PBXTargetDependency */,
+			);
+			name = SquaresDetectorTests;
+			productName = SquaresDetectorTests;
+			productReference = 141843811A67405700BA36D0 /* SquaresDetectorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		141843641A67405600BA36D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Mauricio Conde";
+				TargetAttributes = {
+					1418436B1A67405600BA36D0 = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 2NYBDQ3A7P;
+					};
+					141843801A67405700BA36D0 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 1418436B1A67405600BA36D0;
+					};
+				};
+			};
+			buildConfigurationList = 141843671A67405600BA36D0 /* Build configuration list for PBXProject "SquaresDetector" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 141843631A67405600BA36D0;
+			productRefGroup = 1418436D1A67405600BA36D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1418436B1A67405600BA36D0 /* SquaresDetector */,
+				141843801A67405700BA36D0 /* SquaresDetectorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1418436A1A67405600BA36D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				141843771A67405700BA36D0 /* Main.storyboard in Resources */,
+				F3EDFABB1A6EF5E700EA35DE /* card.jpg in Resources */,
+				1418437C1A67405700BA36D0 /* LaunchScreen.xib in Resources */,
+				F3E791811A72C570001A99D7 /* cannyImage.jpg in Resources */,
+				142151311A6C6A2E003AFB6D /* TwoS.png in Resources */,
+				F3F16FFC1A702B7800FC8FE1 /* img2.jpg in Resources */,
+				F3F16FFB1A702B7800FC8FE1 /* img1.jpg in Resources */,
+				141582481A68C23A0088C7A7 /* squares.jpg in Resources */,
+				141843791A67405700BA36D0 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1418437F1A67405700BA36D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		141843681A67405600BA36D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				141582421A689E3A0088C7A7 /* Squares.cpp in Sources */,
+				141582441A68AD360088C7A7 /* UIImage+OpenCV.mm in Sources */,
+				F3E79CBA1A85423400AC3600 /* Utility.cpp in Sources */,
+				1417D0D01A6889E400E431B3 /* CVWrapper.mm in Sources */,
+				141E996D1A71D93300D47208 /* SquaresDetector.swift in Sources */,
+				142151341A6C6FCE003AFB6D /* ColorDetector.cpp in Sources */,
+				F3EB62C91A6D9A340019E96E /* ColorDetector.swift in Sources */,
+				141843741A67405700BA36D0 /* ViewController.swift in Sources */,
+				F3EDFAB91A6EEE7200EA35DE /* SquaresPerspectiveCorrection.cpp in Sources */,
+				141843721A67405700BA36D0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1418437D1A67405700BA36D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				141843881A67405700BA36D0 /* SquaresDetectorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		141843831A67405700BA36D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1418436B1A67405600BA36D0 /* SquaresDetector */;
+			targetProxy = 141843821A67405700BA36D0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		141843751A67405700BA36D0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				141843761A67405700BA36D0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1418437A1A67405700BA36D0 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1418437B1A67405700BA36D0 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		141843891A67405700BA36D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1418438A1A67405700BA36D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1418438C1A67405700BA36D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/mauricioconde/Documents/SwiftProjects/opencv/ios,
+					/Users/mauricioconde/Downloads,
+					/Users/mauricioconde/Documents/opencv/platforms/ios/Documents,
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = SquaresDetector/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SquaresDetector/SuquaresDetector-Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		1418438D1A67405700BA36D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/mauricioconde/Documents/SwiftProjects/opencv/ios,
+					/Users/mauricioconde/Downloads,
+					/Users/mauricioconde/Documents/opencv/platforms/ios/Documents,
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = SquaresDetector/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SquaresDetector/SuquaresDetector-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		1418438F1A67405700BA36D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SquaresDetectorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SquaresDetector.app/SquaresDetector";
+			};
+			name = Debug;
+		};
+		141843901A67405700BA36D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SquaresDetectorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SquaresDetector.app/SquaresDetector";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		141843671A67405600BA36D0 /* Build configuration list for PBXProject "SquaresDetector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				141843891A67405700BA36D0 /* Debug */,
+				1418438A1A67405700BA36D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1418438B1A67405700BA36D0 /* Build configuration list for PBXNativeTarget "SquaresDetector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1418438C1A67405700BA36D0 /* Debug */,
+				1418438D1A67405700BA36D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1418438E1A67405700BA36D0 /* Build configuration list for PBXNativeTarget "SquaresDetectorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1418438F1A67405700BA36D0 /* Debug */,
+				141843901A67405700BA36D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 141843641A67405600BA36D0 /* Project object */;
+}
